@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\dialog_text_input.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\dialog_text_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\item_inspiration.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\item_inspiration.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\activity_recording_overlay.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\activity_recording_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\widget_recording.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\widget_recording.xml"
+    },
+    {
+        "merged": "com.lgjn.inspirationcapsule.app-mergeDebugResources-37:/layout/item_inspiration.xml",
+        "source": "com.lgjn.inspirationcapsule.app-main-40:/layout/item_inspiration.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\dialog_confirm.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\dialog_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\widget_text_input.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\widget_text_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\layout_floating_inspiration.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\layout_floating_inspiration.xml"
+    },
+    {
+        "merged": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-mergeDebugResources-37:\\layout\\dialog_inspiration_edit.xml",
+        "source": "C:\\Users\\XYKing\\.gradle\\daemon\\8.2\\com.lgjn.inspirationcapsule.app-main-40:\\layout\\dialog_inspiration_edit.xml"
+    }
+]

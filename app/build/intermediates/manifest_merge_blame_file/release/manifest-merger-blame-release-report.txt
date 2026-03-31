@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lgjn.inspirationcapsule"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:5:5-71
+12-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:5:22-68
+13    <uses-permission
+13-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:6:5-7:38
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:6:22-78
+15        android:maxSdkVersion="28" />
+15-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:7:9-35
+16    <uses-permission
+16-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:8:5-9:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:8:22-77
+18        android:maxSdkVersion="32" />
+18-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:9:9-35
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:10:5-67
+19-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:11:5-78
+20-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:11:22-75
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:12:5-77
+21-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:12:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+22-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:13:5-88
+22-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:13:22-85
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:14:5-81
+23-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:14:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:15:5-66
+24-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:15:22-63
+25
+26    <permission
+26-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.lgjn.inspirationcapsule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.lgjn.inspirationcapsule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:17:5-79:19
+33        android:name="com.lgjn.inspirationcapsule.LingGanApp"
+33-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:18:9-35
+34        android:allowBackup="true"
+34-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:19:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.12.0] C:\Users\XYKing\.gradle\caches\transforms-3\8775ed491970576126584cf24be3fe11\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+36        android:extractNativeLibs="false"
+37        android:hardwareAccelerated="true"
+37-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:25:9-43
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:20:9-43
+39        android:label="@string/app_name"
+39-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:21:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:22:9-54
+41        android:supportsRtl="true"
+41-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:23:9-35
+42        android:theme="@style/Theme.LingGanJiaoNang" >
+42-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:24:9-53
+43
+44        <!-- Main Activity -->
+45        <activity
+45-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:28:9-37:20
+46            android:name="com.lgjn.inspirationcapsule.MainActivity"
+46-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:29:13-41
+47            android:exported="true"
+47-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:30:13-36
+48            android:screenOrientation="portrait"
+48-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:32:13-49
+49            android:windowSoftInputMode="adjustResize" >
+49-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:31:13-55
+50            <intent-filter>
+50-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:33:13-36:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:34:17-69
+51-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:34:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:35:17-77
+53-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:35:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <!-- Widget Recording Overlay Activity -->
+58        <activity
+58-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:40:9-45:49
+59            android:name="com.lgjn.inspirationcapsule.RecordingOverlayActivity"
+59-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:41:13-53
+60            android:excludeFromRecents="true"
+60-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:45:13-46
+61            android:exported="false"
+61-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:42:13-37
+62            android:screenOrientation="portrait"
+62-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:44:13-49
+63            android:theme="@style/Theme.Translucent" />
+63-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:43:13-53
+64
+65        <!-- Edit Title Activity -->
+66        <activity
+66-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:48:9-53:58
+67            android:name="com.lgjn.inspirationcapsule.EditTitleActivity"
+67-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:49:13-46
+68            android:exported="false"
+68-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:50:13-37
+69            android:screenOrientation="portrait"
+69-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:52:13-49
+70            android:theme="@style/Theme.LingGanJiaoNang"
+70-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:51:13-57
+71            android:windowSoftInputMode="adjustResize" />
+71-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:53:13-55
+72
+73        <!-- Floating Window Service -->
+74        <service
+74-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:56:9-59:75
+75            android:name="com.lgjn.inspirationcapsule.service.FloatingWindowService"
+75-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:57:13-58
+76            android:exported="false"
+76-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:58:13-37
+77            android:permission="android.permission.SYSTEM_ALERT_WINDOW" />
+77-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:59:13-72
+78
+79        <!-- Recording Service (background recording for widget) -->
+80        <service
+80-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:62:9-65:58
+81            android:name="com.lgjn.inspirationcapsule.service.RecordingService"
+81-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:63:13-53
+82            android:exported="false"
+82-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:64:13-37
+83            android:foregroundServiceType="microphone" />
+83-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:65:13-55
+84
+85        <!-- Home Screen Widget -->
+86        <receiver
+86-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:68:9-77:20
+87            android:name="com.lgjn.inspirationcapsule.widget.RecordingWidget"
+87-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:69:13-51
+88            android:exported="true" >
+88-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:70:13-36
+89            <intent-filter>
+89-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:71:13-73:29
+90                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+90-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:72:17-84
+90-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:72:25-81
+91            </intent-filter>
+92
+93            <meta-data
+93-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:74:13-76:65
+94                android:name="android.appwidget.provider"
+94-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:75:17-58
+95                android:resource="@xml/recording_widget_info" />
+95-->D:\00\00android\LGJN\app\src\main\AndroidManifest.xml:76:17-62
+96        </receiver>
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.lgjn.inspirationcapsule.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XYKing\.gradle\caches\transforms-3\fab8b75b7e9679982a94051180e1a35f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\XYKing\.gradle\caches\transforms-3\2419007326b66f9827b3634ef3e657e6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\XYKing\.gradle\caches\transforms-3\2419007326b66f9827b3634ef3e657e6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\XYKing\.gradle\caches\transforms-3\2419007326b66f9827b3634ef3e657e6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XYKing\.gradle\caches\transforms-3\d652cbb5b9f56b84046055b1f667c7db\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>
